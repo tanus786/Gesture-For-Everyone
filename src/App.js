@@ -1,23 +1,51 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import HomePage from './Components/HomePage/HomePage';
+import Loader from './Components/Loader/Loader';
+import Login from './Components/Login/Login';
+import Navbar from './Components/Navbar/Navbar';
+import ParticlesComponent from './Components/Particles/particles';
+import Footer from './Components/Footer/Footer';
+import Services from './Components/Services/Services';
+import About from './Components/About/About';
+import Team from './Components/Team/Team';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Video from './Components/Video/Video';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  //Loader
+  const [isLoading, setIsLoading ] = useState(true);
+  useEffect(()=>{
+    const startLoader = () =>{
+      setTimeout(() =>{
+        setIsLoading(false);
+      },5800)
+    }
+    startLoader();
+  },[]);
+
+  return isLoading ? (<Loader />) :
+  (
+    <div>
+       <div>
+          <ParticlesComponent id="particles"/>
+          <Navbar/>
+        </div>
+        <Routes>
+          <Route path ="/" element={<HomePage />}/>
+          <Route path ="/about" element={<About />}/>
+          <Route path ="/login" element={<Login />}/>
+          <Route path ="/services" element={<Services />}/>
+          <Route path ="/team" element={<Team />}/>
+          {/* <Route path ="/video" element={<Video />}/> */}
+        </Routes>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 }
