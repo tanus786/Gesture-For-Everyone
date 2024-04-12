@@ -16,7 +16,7 @@ const Service = () => {
               <span className="mb-2 block text-lg font-semibold text-primary text-white">
                 Our Services
               </span>
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] dark:text-white sm:text-4xl md:text-[40px]">
+              <h2 className="mb-3 text-3xl font-bold leading-[1.2] dark:text-white sm:text-4xl md:text-[40px] text-purple-600">
                 What We Offer
               </h2>
               <p className="text-base text-body-color text-white">
@@ -30,7 +30,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class=" w-[25rem] h-[17rem]" src={img1} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Precision Gesture Recognition</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Precision Gesture Recognition</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our software employs advanced algorithms to accurately interpret a wide range of hand gestures, ensuring accuracy. 
         <br/><br/>
         </p>
@@ -44,7 +44,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class="w-[25rem] h-[17rem]" src={img2} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Customizable Gesture Library</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Customizable Gesture Library</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Tailor the software to your unique preferences and workflow with our customizable gesture library. Create and assign personalised gestures to specific actions or commands.</p>
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -56,7 +56,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class="h-[17rem] w-[25rem]" src={img3} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cross-Platform Compatibility</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Cross-Platform Compatibility</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our software seamlessly integrates with desktop computers, laptops, tablets, and even virtual reality headsets, providing a consistent e user experience across all your devices.</p>
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -68,7 +68,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class="h-[17rem] w-[25rem]" src={img4} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">For Teachers</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For Teachers</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">we're excited to revolutionise the classroom experience by empowering teachers with seamless control over presentations without the need to physically interact with smart boards.</p>
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -81,7 +81,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class="h-[17rem] w-[25rem]" src={img5} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">For Gamers</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For Gamers</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Picture yourself seamlessly navigating virtual worlds, executing complex manoeuvres, and interacting with in-game elements—all with simple hand gestures.</p>
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -93,7 +93,7 @@ const Service = () => {
         <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
         <img class="h-[17rem] w-[25rem]" src={img6} alt="" />
         <div class="p-5">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">For individuals with special requirements</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For individuals with special requirements</h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">With our forthcoming version, we're proud to introduce an innovative solution that harnesses the power of facial gestures to cater to the needs of individuals with special requirements. </p>
         <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">

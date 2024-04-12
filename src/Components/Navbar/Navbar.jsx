@@ -1,9 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Login from '../Login/Login'
-import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
-import Team from '../Team/Team'
+import logo from '../../Data/Logo.png'
 const navigation = [
   { name: 'Dashboard', href: '/', current: false },
   { name: 'Team', href: '/team', current: false },
@@ -39,11 +37,11 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src={logo}
                     alt="Gesture"
                   />
                   <div>
-                    <Link to="/" className='text-white font-bold text-lg'>Gesture</Link>
+                    <Link to="/" className='text-purple-600 font-bold text-lg'> Gesture</Link>
                   </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
