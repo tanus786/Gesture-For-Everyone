@@ -1,5 +1,4 @@
 import React from "react";
-import demo from '../../Data/demo.jpeg'
 import img1 from '../../Data/Img1.jpg'
 import img2 from '../../Data/Img2.png'
 import img3 from '../../Data/Img3.png'
@@ -27,7 +26,7 @@ const Service = () => {
         </div>
 
         <div className="-mx-4 flex flex-wrap mx-8">
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class=" w-[25rem] h-[17rem]" src={img1} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Precision Gesture Recognition</h5>
@@ -41,7 +40,7 @@ const Service = () => {
       </button>
     </div>
         </div>
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class="w-[25rem] h-[17rem]" src={img2} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Customizable Gesture Library</h5>
@@ -53,7 +52,7 @@ const Service = () => {
       </button>
     </div>
         </div>
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class="h-[17rem] w-[25rem]" src={img3} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">Cross-Platform Compatibility</h5>
@@ -65,7 +64,7 @@ const Service = () => {
       </button>
     </div>
         </div>
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class="h-[17rem] w-[25rem]" src={img4} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For Teachers</h5>
@@ -78,7 +77,7 @@ const Service = () => {
     </div>
         </div>
 
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class="h-[17rem] w-[25rem]" src={img5} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For Gamers</h5>
@@ -90,7 +89,7 @@ const Service = () => {
       </button>
     </div>
         </div>
-        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10">
+        <div class="border border-purple-600 rounded-lg shadow dark:border-purple-700 mx-10 w-[25rem] mt-10 border-4 border-double border-purple-600 rounded-2xl">
         <img class="h-[17rem] w-[25rem]" src={img6} alt="" />
         <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple-600 dark:text-white">For individuals with special requirements</h5>
@@ -110,20 +109,20 @@ const Service = () => {
 
 export default Service;
 
-const ServiceCard = ({ icon, title, details }) => {
-  return (
-    <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
-            {icon}
-          </div>
-          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
-            {title}
-          </h4>
-          <p className="text-body-color dark:text-dark-6">{details}</p>
-        </div>
-      </div>
-    </>
-  );
-};
+// const ServiceCard = ({ icon, title, details }) => {
+//   return (
+//     <>
+//       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+//         <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+//           <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+//             {icon}
+//           </div>
+//           <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+//             {title}
+//           </h4>
+//           <p className="text-body-color dark:text-dark-6">{details}</p>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };

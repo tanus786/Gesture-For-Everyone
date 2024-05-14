@@ -4,7 +4,7 @@ import HomePage from './Components/HomePage/HomePage';
 import Loader from './Components/Loader/Loader';
 import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
-import ParticlesComponent from './Components/Particles/particles';
+// import ParticlesComponent from './Components/Particles/particles';
 import Footer from './Components/Footer/Footer';
 import Services from './Components/Services/Services';
 import About from './Components/About/About';
@@ -13,7 +13,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Video from './Components/Video/Video';
+// import Video from './Components/Video/Video';
 
 function App() {
 
@@ -30,9 +30,9 @@ function App() {
 
   return isLoading ? (<Loader />) :
   (
-    <div>
+    <div className='bg-black'>
        <div>
-          <ParticlesComponent id="particles"/>
+          {/* <ParticlesComponent id="particles"/> */}
           <Navbar/>
         </div>
         <Routes>

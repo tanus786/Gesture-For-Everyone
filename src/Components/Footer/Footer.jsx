@@ -1,9 +1,9 @@
-import { Button, Typography , Grid, Link } from '@mui/material'
+import { Button, Typography , Grid} from '@mui/material'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='bg-gray-800'>
       <Grid className='text-white text-center mt-10' container
       sx={{bgcolor:'', color:'white',py:3}}>
          <Grid item xs={12} sm={6} md={3}>
@@ -64,21 +64,6 @@ const Footer = () => {
             </div>
       
          </Grid>
-
-        <Grid className='pt-20' item xs={12}>
-          <Typography variant='body2' component='p' align='center'>
-            &copy; 2024 My Comapany. All Rights Reserved.
-          </Typography>
-          <Typography variant='body2' component='p' align='center'>
-            {/* Made with Love by Me. */}
-          </Typography>
-          <Typography variant='body2' component='p' align='center'>
-            Icons made by {' '}
-            <Link href="https://www.freepik.com" color='inherit' underline='always'>Freepic</Link>{" "}
-            from {' '}
-            <Link href="https://www.flaticon.com" color='inherit' underline='always'>www.flaticon.com</Link>
-          </Typography>
-        </Grid>
       </Grid>
     </div>
   )

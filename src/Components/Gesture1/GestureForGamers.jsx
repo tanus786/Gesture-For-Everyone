@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { Cursor} from 'react-simple-typewriter'
 import GestureImg from '../../Data/Gamers.jpg'
 const GestureForGamers = () => {
   return (
@@ -34,7 +34,7 @@ const GestureForGamers = () => {
 
         <div className="">
         <div className='flex justify-center items-center'>
-      <img className='w-[30rem] h-[25rem] pt-10 mt-20' src={GestureImg} alt="Gesture" />
+      <img className='w-[30rem] h-[25rem] mt-20 border-8 border-double border-purple-600 rounded-2xl' src={GestureImg} alt="Gesture" />
       </div>
         </div>
 

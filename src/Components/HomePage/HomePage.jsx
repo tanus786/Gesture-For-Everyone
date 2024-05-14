@@ -1,5 +1,5 @@
 import React from 'react'
-import Gesture from '../../Data/Gesture.gif'
+import Logo from '../../Data/Logo.png'
 import { Cursor , useTypewriter } from 'react-simple-typewriter'
 import Services from '../Services/Services'
 import Video from '../Video/Video'
@@ -42,7 +42,7 @@ const HomePage = () => {
 
         <div className="">
         <div className='flex justify-center items-center'>
-      <img className='max-w-[20rem] max-h-[20rem] pt-10 mt-2' src={Gesture} alt="Gesture" />
+      <img className='max-w-[20rem] max-h-[20rem] pt-10 mt-2' src={Logo} alt="Gesture" />
       </div>
         </div>
 

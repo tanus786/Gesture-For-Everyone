@@ -2,10 +2,11 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import GestureImg from '../../Data/Gesture_Img.png'
 const Gesture1 = () => {
-    const [text]= useTypewriter({
+    const [text]= useTypewriter({  
         words: ['Gesture'],
         loop:{},
       })
+      //const[text]
   return (
     <div>
         <header>
@@ -36,9 +37,9 @@ const Gesture1 = () => {
     </div>
         </div>
 
-        <div className="">
-        <div className='flex justify-center items-center'>
-      <img className='max-w-[20rem] max-h-[20rem] pt-10 mt-20' src={GestureImg} alt="Gesture" />
+        <div className="border-double border-purple-600">
+        <div className='flex justify-center items-center '>
+      <img className='max-w-[20rem] max-h-[20rem] mt-20 border-8 border-double border-purple-600 rounded-2xl ' src={GestureImg} alt="Gesture" />
       </div>
         </div>
 
